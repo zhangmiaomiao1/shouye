@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>商户联盟</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/shouye.css">
+    <link rel="stylesheet" href="css/public.css">
+    <script src="js/shouye.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script src="js/blocksit.min.js"></script>
+    <script src="js/blocksit.js"></script>
+    <script language="javascript">
+        $(function(){
+            var mySwiper1 = new Swiper('.swiper-container1',{
+                pagination : '.swiper-pagination1',
+                paginationClickable :true,
+                loop : true,
+                grabCursor: true,
+                autoplay: 3000
+
+            })
+        })
+        $(function(){
+            var mySwiper2 = new Swiper('.swiper-container2',{
+                pagination : '.swiper-pagination2',
+                paginationClickable :true,
+//                loop : true,
+                grabCursor: true,
+//              autoplay: 3000
+
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="swiper-container1 swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide con1"><img src="img/ban.jpg" alt=""></div>
+        <div class="swiper-slide con1"><img src="img/jiudian.jpg" alt=""></div>
+        <div class="swiper-slide con1"><img src="img/banshechi.jpg" alt=""></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination1 dian1 swiper-pagination"></div>
+</div>
+<!--搜索框-->
+<div class="shou">
+    <img src="img/sfangdajing.png" alt="">
+    <input id=placeholder placeholder="输入关键词搜索商家" type="text" value="">
+</div>
+<!--导航-->
+<div class="swiper-container2 swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide con2">
+            <div class="nav">
+              <div class="nav-l">
+                  <a href=""><img src="img/scanyin.png" alt=""></a>
+                  <a href="">餐饮</a>
+              </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/szhushu.png" alt=""></a>
+                    <a href="">酒店住宿</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/sbangong.png" alt=""></a>
+                    <a href="">办公用品</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/sxiuxian.png" alt=""></a>
+                    <a>休闲娱乐</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/电子商务.png" alt=""></a>
+                    <a href="">电子商务</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/sliren.png" alt=""></a>
+                    <a href="">丽人</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/本地服务.png" alt=""></a>
+                    <a href="">本地服务</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/sshechi.png" alt=""></a>
+                    <a href="">奢侈品</a>
+                </div>
+            </div>
+</div>
+        <div class="swiper-slide con2 ">
+
+            <div class="nav">
+                <div class="nav-l">
+                    <a href=""><img src="img/广告营销.png" alt=""></a>
+                    <a href="">广告营销</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/教育.png" alt=""></a>
+                    <a href="">教育</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/金融.png" alt=""></a>
+                    <a href="">金融</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/旅游.png" alt=""></a>
+                    <a>旅游</a>
+                </div>
+                <div class="nav-l">
+                    <a href=""><img src="img/硬件设备.png" alt=""></a>
+                    <a href="">硬件设备</a>
+                </div>
+                <!--<div class="nav-l">-->
+                    <!--<a href=""><img src="img/sliren.png" alt=""></a>-->
+                    <!--<a href="">丽人</a>-->
+                <!--</div>-->
+                <!--<div class="nav-l">-->
+                    <!--<a href=""><img src="img/sqiche.png" alt=""></a>-->
+                    <!--<a href="">汽车服务</a>-->
+                <!--</div>-->
+                <!--<div class="nav-l">-->
+                    <!--<a href=""><img src="img/sshechi.png" alt=""></a>-->
+                    <!--<a href="">奢侈品</a>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+    </div>
+    <div class="swiper-pagination2 dian2 swiper-pagination"></div>
+</div>
+
+<!--横杠-->
+<div class="heng"></div>
+<!--最热商家-->
+<div class="shang">
+    <div class="shang-l">
+        <img src="img/shuo.png" alt="">
+    </div>
+    <div class="shang-m">
+        <p>最热商家</p>
+    </div>
+    <div class="shang-r">
+        <img src="img/hot.png" alt="">
+        <p>The hottest <span>businesses</span></p>
+    </div>
+</div>
+<!--横线-->
+<div class="xian"></div>
+<!--列表-->
+<!--每一个列表-->
+<!--1-->
+<div id="container">
+    <div class="list">
+        <div class="list-l">
+            <a href=""><img src="img/hkdj.png" alt=""></a>
+        </div>
+        <div class="list-r">
+            <a href="">新辣道鱼火锅</a>
+            <a href="">新辣道路（和信店）100元代金券</a>
+            <p>80元 <span>100元</span></p>
+            <p>已有<span>3365</span>人查看</p>
+        </div>
+        <div class="kong"></div>
+    </div>
+    <div class="xian"></div>
+    <div class="list">
+        <div class="list-l">
+            <a href=""><img src="img/hkdj.png" alt=""></a>
+        </div>
+        <div class="list-r">
+            <a href="">新辣道鱼火锅</a>
+            <a href="">新辣道路（和信店）100元代金券而交话费然后放入肉放入合法ID结婚发的环境氛围金额符合</a>
+            <p>80元 <span>100元</span></p>
+            <p>已有<span>3365</span>人查看</p>
+        </div>
+        <div class="kong"></div>
+    </div>
+    <div class="xian"></div>
+</div>
+<div id="test" display="none">
+    <div class="list">
+        <div class="list-l">
+            <a href=""><img src="img/hkdj.png" alt=""></a>
+        </div>
+        <div class="list-r">
+            <a href="">新辣道鱼火锅</a>
+            <a href="">新辣道路（和信店）100元代金券而交话费然后放入肉放入合法ID结婚发的环境氛围金额符合</a>
+            <p>80元 <span>100元</span></p>
+            <p>已有<span>3365</span>人查看</p>
+        </div>
+        <div class="kong"></div>
+    </div>
+    <div class="xian"></div>
+    <div class="list">
+        <div class="list-l">
+            <a href=""><img src="img/hkdj.png" alt=""></a>
+        </div>
+        <div class="list-r">
+            <a href="">新辣道鱼火锅</a>
+            <a href="">新辣道路（和信店）100元代金券而交话费然后放入肉放入合法ID结婚发的环境氛围金额符合</a>
+            <p>80元 <span>100元</span></p>
+            <p>已有<span>3365</span>人查看</p>
+        </div>
+        <div class="kong"></div>
+    </div>
+    <div class="xian"></div>
+    <div class="list">
+        <div class="list-l">
+            <a href=""><img src="img/hkdj.png" alt=""></a>
+        </div>
+        <div class="list-r">
+            <a href="">新辣道鱼火锅</a>
+            <a href="">新辣道路（和信店）100元代金券</a>
+            <p>80元 <span>100元</span></p>
+            <p>已有<span>3365</span>人查看</p>
+        </div>
+        <div class="kong"></div>
+    </div>
+    <div class="xian"></div>
+    <div class="list">
+        <div class="list-l">
+            <a href=""><img src="img/hkdj.png" alt=""></a>
+        </div>
+        <div class="list-r">
+            <a href="">新辣道鱼火锅</a>
+            <a href="">新辣道路（和信店）100元代金券</a>
+            <p>80元 <span>100元</span></p>
+            <p>已有<span>3365</span>人查看</p>
+        </div>
+        <div class="kong"></div>
+    </div>
+    <div class="xian"></div>
+    <div class="list">
+        <div class="list-l">
+            <a href=""><img src="img/hkdj.png" alt=""></a>
+        </div>
+        <div class="list-r">
+            <a href="">新辣道鱼火锅</a>
+            <a href="">新辣道路（和信店）100元代金券</a>
+            <p>80元 <span>100元</span></p>
+            <p>已有<span>3365</span>人查看</p>
+        </div>
+        <div class="kong"></div>
+    </div>
+    <div class="xian"></div>
+</div>
+<script type="text/javascript">
+    $(function() {
+        $(window).scroll(function() {
+            // 当滚动到最底部以上50像素时， 加载新内容
+            if ($(document).height() - $(this).scrollTop() - $(this).height() < 50) {
+                $('#container').append($("#test").html());
+            }
+        });
+    });
+</script>
+</body>
+</html>

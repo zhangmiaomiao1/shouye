@@ -1,0 +1,218 @@
+
+/*.swiper-container {*/
+    /*width:100%;*/
+    /*height:3.45rem;*/
+/*}*/
+.swiper-wrapper1{
+    width: 10.8rem !important;
+    height: 3.45rem !important;
+    position: relative;
+    overflow-x: hidden;
+}
+.swiper-wrapper2{
+    width: 10.8rem !important;
+    height:5.4rem !important;
+    position: relative;
+    overflow-x: hidden;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.shou{
+    width: 8.5rem;
+    height: 1.2rem;
+    border: 1px solid #fff;
+    position: relative;
+    /*margin-top: 0.4rem;*/
+    margin:  0.4rem auto;
+
+}
+.shou input{
+    width: 7.5rem;
+    height: 0.85rem;
+    background: #f0f0f0;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    border: none;
+   padding-left: 1rem;
+}
+.shou img{
+    width: 0.58rem;
+    height: 0.57rem;
+    position: absolute;
+    top: 0.15rem;
+    left: 0.3rem;
+}
+.nav{
+    width: 10.8rem;
+    height: 5.4rem;
+}
+.nav-l{
+    width:2.7rem;
+    height: 2.35rem;
+    float: left;
+    text-align: center;
+}
+.nav-l img{
+    width: 1.44rem;
+    height: 1.44rem;
+}
+.nav-l a{
+    display: block;
+    font-size: 0.38rem;
+    color: #454444;
+    margin-top: 0.15rem;
+}
+/*横线*/
+.heng{
+    width: 10.8rem;
+    height: 0.3rem;
+    background:#f0f0f0;
+    box-shadow:0px 0px 5px #d3d2d2 inset;
+}
+/*最热商家*/
+.shang{
+    width: 10.8rem;
+    height: 1rem;
+    line-height: 0.9rem;
+}
+.shang-l{
+    float: left;
+    margin-left: 3.48rem;
+
+}
+.shang-l img{
+    width: 0.3rem;
+    height: 0.35rem;
+    margin-top:0.15rem;
+}
+.shang-m{
+    float: left;
+    height: 0.3rem;
+    padding: 0 0.2rem;
+}
+.shang-m p{
+    font-size:0.52rem;
+    line-height: 1rem;
+    color: #454444;
+}
+.shang-r {
+    float: left;
+    position: relative;
+    height: 1rem;
+}
+.shang-r img{
+    width: 0.28rem;
+    height: 0.18rem;
+    position: absolute;
+    top: 0.2rem;
+    left:0;
+}
+.shang-r p{
+    font-size: 0.14rem;
+    margin-top: 0.2rem;
+}
+.shang-r span{
+    color: #6f6f6f;
+}
+/*列表*/
+.kong{
+    clear: both;
+}
+.list{
+    width: 10.2rem;
+    height:auto;
+    padding: 0 0.3rem;
+    position:relative;
+}
+.list-l{
+    width: 3.2rem;
+    height:auto;
+    float: left;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0;
+}
+.list-l a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.list-l img{
+    width:3.2rem;
+    height:2.4rem;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0;
+}
+.list-r{
+    width:6.8rem;
+    float:right;
+}
+.list-r a:nth-of-type(1){
+    font-size: 0.38rem;
+    display: block;
+    color: #676767;
+    margin-top: 0.35rem;
+}
+.list-r a:nth-of-type(2){
+    display: block;
+    color: #343434;
+    letter-spacing:1px;
+    font-weight: bold;
+    margin-top: 0.2rem;
+    -webkit-tap-highlight-color:transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.list-r p:nth-of-type(1){
+    font-size:0.52rem;
+    letter-spacing:1px;
+    color: #ff6600;
+    font-weight: bold;
+    float: left;
+    margin-top: 0.2rem;
+    margin-bottom: 0.35rem;
+}
+.list-r p:nth-of-type(2){
+    float: right;
+    font-size: 0.38rem;
+    letter-spacing:2px;
+    margin-top: 0.3rem;
+}
+.list-r p:nth-of-type(2) span{
+    color: #ff2a07;
+}
+.list-r p:nth-of-type(1) span{
+    font-size: 0.32rem;
+    color: #a1a1a1;
+    text-decoration:line-through;
+    font-weight: normal;
+}
+/*线*/
+.xian{
+    width: 10.8rem;
+    height: 0.03rem;
+    background:#e3e3e3;
+}
+.daohang{
+    height: 4.8rem !important;
+}
+/*轮播上的点点*/
+.dian1{
+    position: absolute;
+    top: 2.8rem;
+    z-index: 1000000;
+    width: 2rem;
+    height: 0.5rem;
+}
+.dian2{
+    position: absolute;
+    z-index: 1000000;
+    width: 2rem;
+    height: 0.5rem;
+}
